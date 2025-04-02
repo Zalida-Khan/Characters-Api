@@ -36,10 +36,10 @@ const Home = () => {
     <div className="container mx-auto p-4">
       <Header onFetchImages={fetchImages} buttonState={buttonState} />
       <main>
-        <ImageListContainer 
-          loading={buttonState === "loading"} 
-          error={error} 
-          imageData={imageData} 
+        <ImageListContainer
+          loading={buttonState === "loading"}
+          error={error}
+          imageData={imageData}
         />
       </main>
     </div>
